@@ -1,0 +1,116 @@
+body {
+    background-color: #fbfbfb;
+  }
+  @media (min-width: 991.98px) {
+    main {
+      padding-left: 240px;
+    }
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+  }
+  
+  @media (max-width: 991.98px) {
+    .sidebar {
+      width: 100%;
+    }
+  }
+  .sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+.card{
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 12.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
+    height: 25vh;
+}
+h6 {
+    padding-top: 10px;
+    text-indent: 15px;
+    font-size: 1.5vw;
+}
+h7 {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    font-size: 5vw;
+}
+#transactions {
+    width: 97%;
+    margin-top: 5%;
+    margin-left: 1.5%;
+    height: 50vh;
+    font-size: 1.1vw;
+}
+#dash-middle {
+    margin-top: 5%;
+    margin-left: 17.5%;
+    margin-right: 30%;
+}
+#dash-right {
+    position: absolute;
+    margin-left: 55%;
+    width: 25%;
+    height: 80vh;
+}
+#transactions-card {
+    margin-top: 5%;
+    margin-left: 17.5%;
+    height: 80vh;
+    text-align: center;
+    font-size: 1.1vw;
+}
+#th{
+    font-size: 2vw;
+}
+#Virtual {
+    margin-top: 5%;
+    margin-left: 35%;
+}
+#card {
+    height: 52vh;
+    width: 33vw;
+}
+#i-card {
+    margin-left: 15%;
+    height: 33vh;
+    width: 20vw; 
+}
+#V-options {
+    margin-top: 5%;
+    min-height: 25vh;
+    text-align: center;
+    font-size: 1.3vw;
+    margin-left: 5%;
+}
+.card-image {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+#V-options-main {
+    margin-top: 5%;
+    min-height: 25vh;
+    font-size: 1vw;
+}
